@@ -40,3 +40,45 @@
     color: white;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    .footer-container {
+        padding: 1%;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        line-height: 3vw;
+        height: 10vh;
+    }
+    
+    .footer-title h2{
+        padding-top: 3%;
+        font-size: 3vw;
+        /* background-color: red; */
+    }
+
+    .footer-social {
+        font-size: 3vh;
+        
+    }
+    
+    .footer-social a {
+        margin: 1%;
+    }
+
+    .about-bottom-title{
+        font-size: 4vw;
+    }
+}
+
+/* For even smaller screens */
+@media (max-width: 480px) {
+
+
+    .footer-social a svg {
+        font-size: 2.5vh; /* Adjusted font size for better responsiveness */
+    }
+}

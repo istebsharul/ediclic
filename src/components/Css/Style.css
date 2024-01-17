@@ -29,8 +29,6 @@ body {
     align-items: center;
     background-color: #FFFFFF; 
     z-index: 1000; 
-    position: sticky;
-    top: 0;
     border-bottom: 1px solid #E5E5E5;
   }
   
@@ -46,10 +44,13 @@ body {
   }
   
   .logo-text {
-    font-size: 16px;
     font-weight: bold;
     font-family: "Josefin Sans", sans-serif;
     color:black;
+  }
+
+  .logo-text p{
+    font-size: 1vw;
   }
   
   /* Apply the active class to the link within the active li */
@@ -57,11 +58,16 @@ body {
     color: #1f898f; /* Set the desired color for the active link */
     font-weight: bold; /* Apply other styling as needed */
   }
+
+  .navbar-text ul li a {
+    font-size: 1.2vw;
+  }
   
   /* Navbar.css */
   .navbar-text {
     font-family: "Josefin Sans", sans-serif; /* Set your desired font-family */
-    font-size: 12px; /* Adjust the font size as needed */
+    font-size: 2vw; /* Adjust the font size as needed */
+    margin-bottom: 2%;
   }
   
   .navbar-text ul {
@@ -99,14 +105,14 @@ body {
   .navbar ul li a {
     text-decoration: none;
     display: block;
-    font-size: larger;
+    /* font-size: 0.5vw; */
     font-weight: bold;
     font-family: "Josefin Sans", sans-serif;
     color: #000000;
   }
   
   .navbar ul li a:hover {
-    color: #ede7e7;
+    color: #1F898F;
   }
   
   
@@ -185,8 +191,20 @@ body {
       flex-direction: row; /* Keep items in the same row on smaller screens */
       flex-wrap: wrap; /* Allow items to wrap if necessary */
     }
+
+    .logo-text p{
+      font-size: 3vw;
+    }
+
+    .navbar-text ul li a{
+      font-size: 3vw;
+    }
   }
-  
+
+  .navbar-text ul li a:active{
+    color:#1F898F;
+  }
+
   .heading {
     color: #1f898f;
     font-family: "Josefin Sans", sans-serif;
@@ -378,7 +396,7 @@ body {
   
   @media only screen and (max-width: 768px) {
     .header .logo .logo-image {
-      width: 100px;
+      width: 40vh;
     }
   
     .slider-background .row1 {

@@ -7,7 +7,6 @@ const Header = () => {
     <div className="header">
       <Logo className="logo" />
       <Navbar className="navbar" />
-      <hr/>
     </div>
   );
 };

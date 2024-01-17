@@ -11,14 +11,37 @@ align-items: center;
 }
 
 .image_wrapper{
-    width: 15vw;
-    height: 10vh;
+    width: 200px;
+    height: 100%;
+    /* background-color: red; */
 }
 
-.image_wrapper img{ 
-    width: 100px;
-    /* height: 100px; */
-    width: fit-content;
-    height: 40px;
+.image_wrapper img{
+    width: 100%;
     object-fit: cover;
+}
+
+.client-slider-title{
+    color:black;
+    font-weight: bold;
+    font-size: 1.4vw;
+    padding: 2%;
+}
+
+@media (max-width:786px){
+    .image_wrapper{
+        width: 120px;
+        height: 100%;
+        /* background-color: red; */
+    }
+    
+    .image_wrapper img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .client-slider-title{
+        font-size: 3vw;
+    }
+    
 }
