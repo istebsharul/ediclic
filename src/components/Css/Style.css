@@ -201,10 +201,6 @@ body {
     }
   }
 
-  .navbar-text ul li a:active{
-    color:#1F898F;
-  }
-
   .heading {
     color: #1f898f;
     font-family: "Josefin Sans", sans-serif;
