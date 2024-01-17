@@ -1,0 +1,42 @@
+
+.footer-container{
+    width: 100%;
+    background-color: #1f898f;
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    height: 15vh;
+    color: white;
+    font-weight: 100;
+}
+
+.footer-title{
+    padding-left: 1%;
+}
+
+.footer-title h2{   
+    font-size: 1.5vw;
+    font-weight: lighter;
+}
+
+.footer-social{
+    text-align: right;
+    width: 30vw;
+    /* background-color: red; */
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.footer-social a svg{
+    margin: 0vh 1vh;
+    font-size: 7vh;
+    color:rgb(0, 0, 0);
+}
+
+.footer-social a{
+    margin:1%;
+    color: white;
+    text-decoration: none;
+}

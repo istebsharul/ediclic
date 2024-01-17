@@ -1,7 +1,11 @@
+/* src/index.css or any other global stylesheet file */
+@import '@fontsource/josefin-sans';
 
 /* Home Page Content  */
 body {
     margin: 0; /* Remove default margin for the body */
+    font-family: 'Josefin Sans';
+    color:white;
   }
   
   .app-container {
@@ -45,6 +49,7 @@ body {
     font-size: 16px;
     font-weight: bold;
     font-family: "Josefin Sans", sans-serif;
+    color:black;
   }
   
   /* Apply the active class to the link within the active li */
@@ -117,7 +122,8 @@ body {
     display: flex;
     flex-direction: column; /* Stack content vertically for responsiveness */
     align-items: center; /* Center horizontally */
-  
+    background-color: #1f898f;
+
     @media (min-width: 768px) {
       /* Add responsive styles for screens wider than 768px */
       flex-direction: row; /* Display content in a row on larger screens */
@@ -132,7 +138,8 @@ body {
     font-family: "Josefin Sans", sans-serif;
     font-size: 20px;
   }
-  
+
+
   .footer a {
     text-decoration: none;
     margin: 0 10px; /* Add margin to all sides of social icons */
@@ -149,27 +156,13 @@ body {
   }
   
   /* About Page Content Style */
-  .about-container {
-    background-color: #1F898F;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center the content vertically */
-    padding: 10px;
-  }
-  
+
   .row-container {
     display: flex;
     flex-direction: row;
     align-items: center;
   }
   
-  .about-image {
-    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-    height: auto; /* Maintain aspect ratio */
-    margin: -25px; 
-    transform: rotateX('angle');
-    z-index: 99;
-  }
   
   .content-container {
     background-color: #ffffff;
@@ -235,19 +228,6 @@ body {
   }
   
   /* Media Query for Responsive Design */
-  @media screen and (max-width: 768px) {
-    .container {
-      flex-direction: column; /* Stack elements vertically on smaller screens */
-    }
-  
-    .about-image {
-      margin: 20px 0; /* Add spacing between image and content on smaller screens */
-    }
-  
-    .content-container {
-      height: auto; /* Allow content to expand based on content size */
-    }
-  }
   
   
   /* About footer Section Style*/

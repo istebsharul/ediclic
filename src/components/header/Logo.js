@@ -8,12 +8,12 @@ const Logo = () => {
   //   return <div className="About">This is About</div>;
   const handleScroll = () => {
     console.log(window.scrollY)
-    if(window.scrollY > 100) {
+    if (window.scrollY > 100) {
       // setScrollY(window.scrollY);
       setImageSize(100)
     }
-    else if(window.scrollY < 50){
-      
+    else if (window.scrollY < 50) {
+
       setImageSize(300)
     }
   };

@@ -1,6 +1,6 @@
 import React from "react";
 import "../Css/Style.css";
-import { FaFacebook, FaSquareInstagram, FaSquareTwitter } from "react-icons/fa6";
+import { FaFacebook, FaLinkedin, FaSquareInstagram, FaSquareTwitter } from "react-icons/fa6";
 
 const HomeFooter = () => {
   return (
@@ -8,17 +8,17 @@ const HomeFooter = () => {
       <div className="footer-text">
         <p>© 2023 Édiclic. Tous droits réservés.</p>
       </div>
-      {/* <div className="footer-social">
-        <a href="#">
-          <FaFacebook size="2rem" color="#1f898f" />
+      <div className="footer-social">
+        <a href="">
+          contact@ediclic.com
         </a>
         <a href="#">
-          <FaSquareInstagram size="2rem" color="#1f898f" />
+          <FaSquareInstagram size="2rem" color="white" />
         </a>
         <a href="#">
-          <FaSquareTwitter size="2rem" color="#1f898f" />
+          <FaLinkedin size="2rem" color="white" />
         </a>
-      </div> */}
+      </div>
     </div>
   );
 };

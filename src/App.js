@@ -3,8 +3,9 @@ import Header from "./components/header/Header.js";
 import Home from "./components/header/Home.js";
 import "./components/Css/Style.css";
 import About from "./components/About.js";
-import Contact from "./components/header/Contact.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Footer from "./components/footer/Footer.js";
+import Contact from "./components/Contact.js";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/a-propos" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
