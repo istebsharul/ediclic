@@ -8,7 +8,7 @@ function Footer() {
         <>
             <div className='footer-container'>
                 <div className='footer-title'>
-                    <h2> Tous droits réservés © 2023 Édiclic.</h2>
+                    <h2> Tous droits réservés © 2024 Édiclic.</h2>
                 </div>
                 <div className='footer-social'>
                     <a href='mailto:'>contact@ediclic.com</a>

@@ -39,8 +39,12 @@
 }
 
 .about-container-title p{
+    /* font-family: 'Extra Thin Font'; */
+    font-size: 1.3vw;
     font-weight: lighter;
+    color: white;
 }
+
 .about-container-image{
     height: fit-content;
 
@@ -67,6 +71,13 @@
 }
 
 @media (max-width:786px) {
+    .about-containers{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        /* background-color: red; */
+    }
+
     .about-title{
         width: 90%;
         font-size: 3.5vw;
@@ -87,5 +98,14 @@
     .about-container-title{
         font-size: 4vw;
         line-height: 5vw;
+    }
+    .about-container-title p{
+        /* font-family: 'Extra Thin Font'; */
+        font-size: 3.5vw;
+        font-weight: 100;
+    }
+
+    .about-bottom-title{
+        font-size: 4vw;
     }
 }

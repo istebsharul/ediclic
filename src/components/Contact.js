@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Css/contact.css"
-import Logo from '..//images/logo2.jpg'
-import contactBg from '..//images/contactbg.png'
+import Logo from '..//images/logo2.webp'
+import contactBg from '..//images/contactbg.webp'
 import Form from './Form'
 
 function Contact() {
@@ -14,10 +14,8 @@ function Contact() {
                 </div>
                 <div className='contact-container-column2'>
                     <div className='contact-container-column2-title'>
-                        <h2>Vous êtes un auteur, porteur d'
-                            un projet,<br />
-                            Vous êtes un éditeur à la recherche d'
-                            une équipe dynamique et créative,<br />
+                        <h2>Vous êtes un auteur, porteur d'un projet,<br />
+                            Vous êtes un éditeur à la recherche d'une équipe dynamique et créative,<br />
                             Vous êtes une entreprise désirant réaliser un livre,</h2>
                         <h1>N'HÉSITEZ PAS À NOUS CONTACTER !</h1>
                     </div>
@@ -26,9 +24,7 @@ function Contact() {
                             <div className="company-details-logo"><img src={Logo} alt="Logo"></img></div>
                             <div className='company-details-address'>
                                 <h3>ÉDICLIC</h3>
-                                <p> 22, rue Barbet de Jouy
-                                    75007 Paris
-                                    contact@ediclic.com</p>
+                                <p> contact@ediclic.com</p>
                             </div>
                         </div>
                         <Form />
